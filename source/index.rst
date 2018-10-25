@@ -8,13 +8,15 @@ Welcome to report's documentation!
 
 .. toctree::
     :maxdepth: 2
-    :caption: 第一章：XXX
+    :caption: chapter1：XXX
+
     1-intro/info.md
 
 .. toctree::
     :maxdepth: 2
-    :caption: 第二张
-    2.practice/how-to-install.rst
+    :caption: chapter2
+    
+    2-practice/how-to-install.rst
 
 Indices and tables
 ==================
