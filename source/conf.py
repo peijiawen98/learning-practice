@@ -15,8 +15,8 @@
 # import os
 # import sys
 # sys.path.insert(0, os.path.abspath('.'))
-#source_parsers = {
-'.md': 'recommonmark.parser.CommonMarkParser',
+source_parsers = {
+    '.md': 'recommonmark.parser.CommonMarkParser',
 }
 
 # -- Project information -----------------------------------------------------
@@ -140,7 +140,7 @@ latex_elements = {
 #  author, documentclass [howto, manual, or own class]).
 latex_documents = [
     (master_doc, 'report.tex', 'report Documentation',
-     'report', 'manual'),
+    'report', 'manual'),
 ]
 
 
@@ -150,7 +150,7 @@ latex_documents = [
 # (source start file, name, description, authors, manual section).
 man_pages = [
     (master_doc, 'report', 'report Documentation',
-     [author], 1)
+    [author], 1)
 ]
 
 
@@ -161,8 +161,8 @@ man_pages = [
 #  dir menu entry, description, category)
 texinfo_documents = [
     (master_doc, 'report', 'report Documentation',
-     author, 'report', 'One line description of project.',
-     'Miscellaneous'),
+    author, 'report', 'One line description of project.',
+    'Miscellaneous'),
 ]
 
 
